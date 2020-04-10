@@ -18,7 +18,7 @@ namespace ReorderLogFiles
 
                 if (!isDigit1 && !isDigit2)
                 {
-                    var cmp = split1[1].CompareTo(split2[1]);
+                    var cmp = x.CompareTo(y);
                     if (cmp !=0)
                     {
                         return cmp;
