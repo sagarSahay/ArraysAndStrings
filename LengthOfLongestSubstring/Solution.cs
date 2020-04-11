@@ -7,26 +7,53 @@ namespace LengthOfLongestSubstring
 
     public class Solution
     {
+        // public int LengthOfLongestSubstring(string input)
+        // {
+        //     var res = 0;
+        //     var n = input.Length;
+        //
+        //     for (int i = 0; i < n; i++)
+        //     {
+        //         for (int j = i + 1; j <= n; j++)
+        //         {
+        //             if (allUniqueChars(input, i, j))
+        //             {
+        //                 res =  Math.Max(res, j - i);
+        //             }
+        //         }
+        //     }
+        //
+        //     return res;
+        // }
+
         public int LengthOfLongestSubstring(string input)
         {
-            var res = 0;
-            var n = input.Length;
+            var count = input.Length;
 
-            for (int i = 0; i < n; i++)
+            var left = 0;
+            var right = 0;
+
+            var res = 0;
+            
+            var mapDict = new HashSet<char>();
+
+            while (left < count && right < count)
             {
-                for (int j = i + 1; j <= n; j++)
+                if (!mapDict.Contains(input[right]))
                 {
-                    if (allUniqueChars(input, i, j))
-                    {
-                        res =  Math.Max(res, j - i);
-                        return res;
-                    }
+                    mapDict.Add(input[right]);
+                    right++;
+                    res = Math.Max(res, right - left);
+                }
+                else
+                {
+                    mapDict.Remove(input[left]);
+                    left++;
                 }
             }
 
-            return 0;
+            return res;
         }
-
         private bool allUniqueChars(string input, in int i, in int j)
         {
             var set = new HashSet<char>();
