@@ -48,6 +48,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplemenStrStr", "ImplemenS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementStrStr.Tests", "ImplementStrStr.Tests\ImplementStrStr.Tests.csproj", "{3EA54B9C-B48C-45B7-B9B6-65B58251EBF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "RotateImage\RotateImage.csproj", "{4A2D2573-46B9-4E0E-83DC-CB653828EAF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage.Tests", "RotateImage.Tests\RotateImage.Tests.csproj", "{CCDA7AA9-D873-4892-B6BB-0DFD619AE401}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,5 +154,13 @@ Global
 		{3EA54B9C-B48C-45B7-B9B6-65B58251EBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EA54B9C-B48C-45B7-B9B6-65B58251EBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EA54B9C-B48C-45B7-B9B6-65B58251EBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2D2573-46B9-4E0E-83DC-CB653828EAF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2D2573-46B9-4E0E-83DC-CB653828EAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2D2573-46B9-4E0E-83DC-CB653828EAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2D2573-46B9-4E0E-83DC-CB653828EAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDA7AA9-D873-4892-B6BB-0DFD619AE401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDA7AA9-D873-4892-B6BB-0DFD619AE401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDA7AA9-D873-4892-B6BB-0DFD619AE401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDA7AA9-D873-4892-B6BB-0DFD619AE401}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
