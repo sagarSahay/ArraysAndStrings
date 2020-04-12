@@ -60,6 +60,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumWindowSubstring", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumWindowSubstring.Tests", "MinimumWindowSubstring.Tests\MinimumWindowSubstring.Tests.csproj", "{FDAB5AF0-8B91-4805-810A-BAD8290FC0E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfArrayExceptSelf", "ProductOfArrayExceptSelf\ProductOfArrayExceptSelf.csproj", "{1A87702C-582C-43F6-8E6E-3FD75EF0FAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfArrayExceptSelf.Tests", "ProductOfArrayExceptSelf.Tests\ProductOfArrayExceptSelf.Tests.csproj", "{9A51A2F7-3803-4320-995D-D9D6645695B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -186,5 +190,13 @@ Global
 		{FDAB5AF0-8B91-4805-810A-BAD8290FC0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDAB5AF0-8B91-4805-810A-BAD8290FC0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDAB5AF0-8B91-4805-810A-BAD8290FC0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A87702C-582C-43F6-8E6E-3FD75EF0FAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A87702C-582C-43F6-8E6E-3FD75EF0FAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A87702C-582C-43F6-8E6E-3FD75EF0FAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A87702C-582C-43F6-8E6E-3FD75EF0FAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A51A2F7-3803-4320-995D-D9D6645695B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A51A2F7-3803-4320-995D-D9D6645695B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A51A2F7-3803-4320-995D-D9D6645695B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A51A2F7-3803-4320-995D-D9D6645695B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
