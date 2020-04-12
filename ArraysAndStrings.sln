@@ -52,6 +52,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "RotateImage\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage.Tests", "RotateImage.Tests\RotateImage.Tests.csproj", "{CCDA7AA9-D873-4892-B6BB-0DFD619AE401}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "GroupAnagrams\GroupAnagrams.csproj", "{81757866-6DBE-49E4-9A75-5839A02154EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams.Tests", "GroupAnagrams.Tests\GroupAnagrams.Tests.csproj", "{FA0C78C2-153A-427E-A652-DA5EDEC58363}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,5 +166,13 @@ Global
 		{CCDA7AA9-D873-4892-B6BB-0DFD619AE401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCDA7AA9-D873-4892-B6BB-0DFD619AE401}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCDA7AA9-D873-4892-B6BB-0DFD619AE401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81757866-6DBE-49E4-9A75-5839A02154EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81757866-6DBE-49E4-9A75-5839A02154EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81757866-6DBE-49E4-9A75-5839A02154EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81757866-6DBE-49E4-9A75-5839A02154EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0C78C2-153A-427E-A652-DA5EDEC58363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0C78C2-153A-427E-A652-DA5EDEC58363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0C78C2-153A-427E-A652-DA5EDEC58363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0C78C2-153A-427E-A652-DA5EDEC58363}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
