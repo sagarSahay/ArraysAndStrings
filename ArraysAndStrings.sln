@@ -72,9 +72,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParentheses.Tests", "V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindromicSubstring.Tests", "LongestPalindromicSubstring.Tests\LongestPalindromicSubstring.Tests.csproj", "{635C43F9-6A03-4FC9-9131-4A7D83FB2B23}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStocks", "BestTimeToBuyAndSellStocks\BestTimeToBuyAndSellStocks.csproj", "{0EEF225C-99C9-4A74-B6E8-74BD17B05816}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStocks.Tests", "BestTimeToBuyAndSellStocks.Tests\BestTimeToBuyAndSellStocks.Tests.csproj", "{2263301F-295C-4A88-A950-37804DC25F4C}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{2359D887-D013-445E-837E-E88735927ED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray.Tests", "RemoveDuplicatesFromSortedArray.Tests\RemoveDuplicatesFromSortedArray.Tests.csproj", "{F793389D-332D-472B-BF46-756C97D40466}"
+>>>>>>> REmove duplicates from sorted array
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -218,6 +224,7 @@ Global
 		{635C43F9-6A03-4FC9-9131-4A7D83FB2B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{635C43F9-6A03-4FC9-9131-4A7D83FB2B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{635C43F9-6A03-4FC9-9131-4A7D83FB2B23}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{F4385A43-4BB0-41DE-A1C6-E4E0742EBDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4385A43-4BB0-41DE-A1C6-E4E0742EBDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4385A43-4BB0-41DE-A1C6-E4E0742EBDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -234,5 +241,15 @@ Global
 		{2263301F-295C-4A88-A950-37804DC25F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2263301F-295C-4A88-A950-37804DC25F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2263301F-295C-4A88-A950-37804DC25F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{2359D887-D013-445E-837E-E88735927ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2359D887-D013-445E-837E-E88735927ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2359D887-D013-445E-837E-E88735927ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2359D887-D013-445E-837E-E88735927ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F793389D-332D-472B-BF46-756C97D40466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F793389D-332D-472B-BF46-756C97D40466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F793389D-332D-472B-BF46-756C97D40466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F793389D-332D-472B-BF46-756C97D40466}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> REmove duplicates from sorted array
 	EndGlobalSection
 EndGlobal
