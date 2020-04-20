@@ -4,19 +4,17 @@ namespace RemoveDuplicatesFromSortedArray
     {
         public int RemoveDuplicates(int[] nums)
         {
-
-            var left = 0;
-            var right = 1;
-            var length = nums.Length;
-
-            while (left < length && right < length)
+            var i = 0;
+            for (int j = 0; j < nums.Length; j++)
             {
-                if (nums[left] == nums[right])
+                if (nums[j] != nums[i])
                 {
-                    right++;
+                    nums[i] = nums[j];
+                    i++;
                 }
             }
 
+            return i + 1;
         }
     }
 }

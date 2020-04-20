@@ -80,6 +80,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray.Tests", "RemoveDuplicatesFromSortedArray.Tests\RemoveDuplicatesFromSortedArray.Tests.csproj", "{F793389D-332D-472B-BF46-756C97D40466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextPermutation", "NextPermutation\NextPermutation.csproj", "{F163A7B6-AC7D-464B-B104-266AB40BE6C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextPermutation.Tests", "NextPermutation.Tests\NextPermutation.Tests.csproj", "{DC4E176C-5A41-4D2F-B59A-D4A2FD3495FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -246,5 +250,13 @@ Global
 		{F793389D-332D-472B-BF46-756C97D40466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F793389D-332D-472B-BF46-756C97D40466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F793389D-332D-472B-BF46-756C97D40466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F163A7B6-AC7D-464B-B104-266AB40BE6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F163A7B6-AC7D-464B-B104-266AB40BE6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F163A7B6-AC7D-464B-B104-266AB40BE6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F163A7B6-AC7D-464B-B104-266AB40BE6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4E176C-5A41-4D2F-B59A-D4A2FD3495FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4E176C-5A41-4D2F-B59A-D4A2FD3495FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4E176C-5A41-4D2F-B59A-D4A2FD3495FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4E176C-5A41-4D2F-B59A-D4A2FD3495FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
