@@ -23,10 +23,10 @@ namespace ImplemenStrStr
             var needleLength = needle.Length;
 
             var haystackPtr = 0;
-            
+
             while (haystackPtr < haystackLength - needleLength + 1)
             {
-                if (haystack[haystackPtr] != needle[0] && haystackPtr< haystackLength - needleLength +1)
+                if (haystack[haystackPtr] != needle[0] && haystackPtr < haystackLength - needleLength + 1)
                 {
                     haystackPtr++;
                 }
@@ -47,8 +47,6 @@ namespace ImplemenStrStr
                 }
 
                 haystackPtr = haystackPtr - currlen + 1;
-
-
             }
 
             return -1;
