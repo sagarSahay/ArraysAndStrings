@@ -24,4 +24,6 @@ namespace AddBinary
             return carry == 1 ? sb.Insert(0, 1).ToString() : sb.ToString();
         }
     }
+    
+    
 }

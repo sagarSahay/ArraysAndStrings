@@ -2,6 +2,8 @@ using System.Runtime.CompilerServices;
 
 namespace NumberToWords
 {
+    using System.ComponentModel.DataAnnotations;
+
     public class Solution
     {
         private string[] LessThan20 = new[]
